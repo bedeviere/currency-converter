@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/* Reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;margin:0;padding:0;}fieldset,img{display:block; border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}ol,ul {list-style:none;}caption,th {text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym {border:0;}
+
+body {
+	width:100%;
+	height:100vh;
+	background:url(bg-desktop.jpg) no-repeat top center;
+	background-size:cover;
+}
+* {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+.landingContentDesktop{
+	display:block;
+	width:100%;
+	text-align:center;
+}
+	.landingContentDesktop img, .landingContentMobile img{
+		display:inline;
+		max-width:100%;
+		text-align:center;
+	}
+
+.landingContentMobile{
+	display:none;
+	width:100%;
+	text-align:center;
+}
+
+@media only screen and (max-width:1025px){
+
+body{
+	background:url(bg-mobile.jpg) no-repeat top center;
+	background-size:cover;
+}
+.landingContentDesktop{
+	display:none;
+}
+.landingContentMobile{
+	display:block;
+}
+	.landingContentMobile img{
+		width:100%;
+	}
+
+}

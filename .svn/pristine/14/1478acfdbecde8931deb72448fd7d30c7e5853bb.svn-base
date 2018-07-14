@@ -1,0 +1,44 @@
+// General Colors
+$color-default: #252525;
+$color-naruto: #F1A744;
+$color-blood: #ED1D25;
+
+// Fonts
+$font-sans: 'Roboto', sans-serif;
+$font-fantasy: 'DK Lemon Yellow Sun', fantasy;
+
+@mixin animation-transition {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+@mixin gradient-vertical($color-top, $color-bottom) {
+	background: $color-top; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient($color-top, $color-bottom); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient($color-top, $color-bottom); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient($color-top, $color-bottom); /* For Firefox 3.6 to 15 */
+    background: linear-gradient($color-top, $color-bottom); /* Standard syntax */
+}
+
+@mixin gradient-horizontal($color-left, $color-right) {
+	background: $color-left; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, $color-left, $color-right); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, $color-left, $color-right); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, $color-left, $color-right); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, $color-left, $color-right); /* Standard syntax */
+}
+
+@mixin gradient-degree-multiple($deg, $colors...) {
+    background: nth($colors, 1); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient($deg, $colors); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient($deg, $colors); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient($deg, $colors); /* For Firefox 3.6 to 15 */
+    background: linear-gradient($deg, $colors); /* Standard syntax */
+}
+
+@mixin calc($property, $expression) {
+    #{$property}: -moz-calc(#{$expression});
+    #{$property}: -webkit-calc(#{$expression});
+    #{$property}: calc(#{$expression});
+}

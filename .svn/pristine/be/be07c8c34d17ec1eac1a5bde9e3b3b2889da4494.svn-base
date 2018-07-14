@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="target-densitydpi=device-dpi; width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+<meta name="HandheldFriendly" content="true" />
+<title>Oronamin C</title>
+<link rel="stylesheet" type="text/css" href="oronamin.css">
+</head>
+
+<body>
+
+<div class="landingContentDesktop">
+	<img src="landing-page.png" />
+</div>
+<div class="landingContentMobile">
+	<img src="landing-page-mobile.png" />
+</div>
+
+</body>
+</html>

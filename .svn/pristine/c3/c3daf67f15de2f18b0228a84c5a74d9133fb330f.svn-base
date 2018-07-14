@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Oronamin C</title>
+<meta name="description" content="Oronamin C is a drink." />
+<meta name="viewport" content="target-densitydpi=device-dpi; width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+<meta name="HandheldFriendly" content="true" />
+<link rel="stylesheet" href="fonts/stylesheet.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/jquery-ui.min.css">
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/oronaminc.css">
+<link rel="shortcut icon" href="favicon.ico"/>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
+</head>
+
+<body id="page-top">
+    <div class="wrapper">
+        <header>
+            <div class="header-left">
+                <h1 class="header-logo"><a href="#"><img src="images/logo-oronaminc.png" alt="Oronamin C" title="Oronamin C"></a></h1>
+            </div>
+            <div class="header-right">
+                <ul class="list-social">
+                    <li><a href="#"><img src="images/icon-facebook.png" alt="facebook" title="facebook"></a></li>
+                    <li><a href="#"><img src="images/icon-instagram.png" alt="facebook" title="instagram"></a></li>
+                    <li><a href="#"><img src="images/icon-youtube.png" alt="facebook" title="youtube"></a></li>
+                </ul>
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#landing">Landing</a></li>
+                <li><a href="#what">What</a></li>
+                <li><a href="#why">Why</a></li>
+                <li><a href="#more">More</a></li>
+            </ul>
+        </nav>
+
+        <section id="home">
+            <div class="section section-primary" id="landing">
+                <div class="container"></div>
+            </div>
+
+            <div class="section section-default" id="what">
+                <div class="container"></div>
+            </div>
+
+            <div class="section section-default" id="why">
+                <div class="container"></div>
+            </div>
+
+            <div class="section section-default" id="more">
+                <div class="container"></div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-left">
+                <div class="footer-logo footer-logo-company"><img src="images/logo-otsuka.png" alt="Otsuka" title="Otsuka"></div>
+                <div class="footer-copyright">&copy; 2018 All rights reserved.</div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-logo footer-logo-brand"><img src="images/logo-oronaminc.png" alt="Oronamin C" title="Oronamin C"></div>
+                <ul class="list-social">
+                    <li><a href="#"><img src="images/icon-facebook.png" alt="facebook" title="facebook"></a></li>
+                    <li><a href="#"><img src="images/icon-instagram.png" alt="facebook" title="instagram"></a></li>
+                    <li><a href="#"><img src="images/icon-youtube.png" alt="facebook" title="youtube"></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Oronamin C</title>
+<meta name="description" content="Oronamin C is a drink." />
+<meta name="viewport" content="target-densitydpi=device-dpi; width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+<meta name="HandheldFriendly" content="true" />
+<link rel="stylesheet" href="fonts/stylesheet.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/jquery-ui.min.css">
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="css/oronaminc.css">
+<link rel="shortcut icon" href="favicon.ico"/>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/parallax.min.js"></script>
+<script src="js/rellax.min.js"></script>
+
+<script src="js/main.js"></script>
+</head>
+
+<body id="page-top">
+    <div class="wrapper">
+        <header>
+            <div class="header-row">
+                <div class="header-left">
+                    <h1 class="header-logo"><a href="#"><img src="images/logo-oronaminc.png" alt="Oronamin C" title="Oronamin C"></a></h1>
+                </div>
+                <div class="header-right">
+                    <ul class="list-social">
+                        <li><a href="#"><img src="images/icon-facebook.png" alt="facebook" title="facebook"></a></li>
+                        <li><a href="#"><img src="images/icon-instagram.png" alt="facebook" title="instagram"></a></li>
+                        <li><a href="#"><img src="images/icon-youtube.png" alt="facebook" title="youtube"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#landing" class="active">Landing</a></li>
+                <li><a href="#what">What</a></li>
+                <li><a href="#why">Why</a></li>
+                <li><a href="#more">More</a></li>
+            </ul>
+        </nav>
+
+        <section id="home">
+            <div class="section section-primary" id="landing" data-parallax="scroll" data-image-src="images/bg1.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="image-objects-left">
+                            <div class="image-objects rellax" id="imageObject1" data-rellax-speed="0.5">
+                                <img class="fade-in" src="../userdata/sample/a.png" alt="object" title="object">
+                                <img class="fade-in" src="../userdata/sample/b.png" alt="object" title="object">
+                                <img class="fade-in" src="../userdata/sample/c.png" alt="object" title="object">
+                                <img class="fade-in" src="../userdata/sample/d.png" alt="object" title="object">
+                            </div>
+                        </div>
+                        <div class="caption caption-right" data-parallax="scroll" data-image-src="../userdata/sample/a.png">
+                            <h2>Minuman Vitamin C&amp;B Mengandung Madu</h2>
+                            <a href="#what" class="section-scroll">Scroll <span>down</span> Down</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section section-default" id="what" data-parallax="scroll" data-image-src="images/bg2.png">
+                <div class="container">
+                    <div class="row">
+                        <div class="image-objects rellax" id="imageObject2" data-rellax-speed="0.5">
+                            <img class="fade-in" src="../userdata/sample/e.png" alt="object" title="object">
+                            <img class="fade-in" src="../userdata/sample/f.png" alt="object" title="object">
+                            <img class="fade-in" src="../userdata/sample/g.png" alt="object" title="object">
+                            <img class="fade-in" src="../userdata/sample/h.png" alt="object" title="object">
+                            <img class="fade-in" src="../userdata/sample/i.png" alt="object" title="object">
+                            <img class="fade-in" src="../userdata/sample/j.png" alt="object" title="object">
+                        </div>
+                        <div class="caption caption-left">
+                            <h3>Lemon &amp; Madu</h3>
+                            <p>Oronamin C punya kandungan Vitamin C, Vitamin B, dan Madu yang sesuai dengan kebutuhan tubuh, tanpa tambahan zat pengawet dan zat pewarna. Jadi kapan pun dan di mana pun, kamu bisa menyegarkan harimu dengan Oronamin C.</p>
+
+                            <br>
+                        </div>
+                        <div class="caption caption-right">
+                            <h3>Vitamin B <span class="text-lower">(B2, B3, &amp; B6)</span></h3>
+                            <p>Membantu proses pembentukan energi.</p>
+
+                            <br>
+
+                            <h3>Vitamin C</h3>
+                            <p>Untuk menjaga daya tahan tubuh dan sebagai antioksidan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section section-default" id="why" data-parallax="scroll" data-image-src="images/bg3.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="image-objects image-objects-right" id="imageObject3">
+                            <img src="../userdata/sample/k.png" alt="object" title="object">
+                            <img src="../userdata/sample/l.png" alt="object" title="object">
+                        </div>
+                        <div class="caption caption-left">
+                            <h2>Kenapa botol Oronamin C berwarna coklat?</h2>
+                            <p>Botol kaca cokelat tidak hanya membuat Oronamin C mudah dikenali, tapi juga punya kegunaan khusus. Botol berwarna cokelat ini melindungi kandungan Vitamin C, Vitamin B, dan Madu Oronamin C dari sinar matahari. Jadi kamu selalu mendapatkan seluruh kebaikan Oronamin C di setiap tegukan!</p>
+                            <div class="video-container">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/gol2LgDOJqs?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section section-default" id="more" data-parallax="scroll" data-image-src="images/bg4.jpg">
+                <div class="container">
+                    <div class="caption caption-right">
+                        <ul class="more-slider owl-carousel owl-theme">
+                            <li>
+                                <h3>Minuman apa sih Oronamin C?</h3>
+                                <p>Oronamin C adalah minuman vitamin mengandung madu. Dengan rasa yang enak menyegarkan dan komposisi vitamin C, B2, B3, B6 yang pas, dapat memnuhi kebutuhan vitamin C dan B harian kamu.</p>
+
+                                <br>
+
+                                <h3>Kenapa botol  Oronamin C berwarna cokelat?</h3>
+                                <p>Karena Oronamin  C mengandung Vitamin,  botol berwarna cokelat berfungsi untuk melindungi  kandungan vitamin dari sinar matahari langsung.</p>
+
+                                <br>
+
+                                <h3>Apakah ada bahan pengawet  dalam kandungan Oronamin C?</h3>
+                                <p>Oronamin C tidak menganudng bahan pengawet.</p>
+                            </li>
+                            <li>
+                                <h3>Apakah  Oronamin C bisa disimpan setelah tutup dibuka?</h3>
+                                <p>Karena volume yang sedikit dan botol yang berukuran kecil, sesaat setelah tutup botol dibuka karbonasi akan cepat terlepas  sehingga kualitas rasa akan berbeda jika didiamkan setelah tutup botol dibuka, maka disarankan segera dihabiskan setelah tutup botol dibuka.</p>
+
+                                <br>
+
+                                <h3>Apakah Oronaminn C boleh dimasukan kedalam freezer sampai beku atau dihangatkan?</h3>
+                                <p>Hindari dibekukan dan dihangatkan karena dapat merusak kemasan dan kandungan vitamin dalam produk.</p>
+
+                                <br>
+
+                                <h3>Bagaimana cara membuka tutup Oronamin C?</h3>
+                                <p>① Genggam botol dan arahkan posisi botol dengan posisi ring ke sisi luar berlawanan dari badan kita. ② Dengan telunjuk tarik ring perlahan keatas, lalu tarik perlahan kearah belakang</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="image-objects" id="imageObject4">
+                    <img src="../userdata/sample/m.png" alt="object" title="object">
+                    <img src="../userdata/sample/n.png" alt="object" title="object">
+                    <img src="../userdata/sample/o.png" alt="object" title="object">
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-row">
+                <div class="footer-left">
+                    <div class="footer-logo footer-logo-company"><img src="images/logo-otsuka.png" alt="Otsuka" title="Otsuka"></div>
+                    <div class="footer-copyright">&copy; 2018 All rights reserved.</div>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-logo footer-logo-brand"><img src="images/logo-oronaminc.png" alt="Oronamin C" title="Oronamin C"></div>
+                    <ul class="list-social">
+                        <li><a href="#"><img src="images/icon-facebook.png" alt="facebook" title="facebook"></a></li>
+                        <li><a href="#"><img src="images/icon-instagram.png" alt="facebook" title="instagram"></a></li>
+                        <li><a href="#"><img src="images/icon-youtube.png" alt="facebook" title="youtube"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Currency Converter</title>
+<meta name="description" content="Currency Converter" />
+<meta name="viewport" content="target-densitydpi=device-dpi; width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+<meta name="HandheldFriendly" content="true" />
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/jquery-ui.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="page-top">
+    <div class="wrapper">
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div id="root"></div>
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label class="currency-base"></label>
+                            <input type="text" class="form-control currency-before" value="1.00">
+                            <small class="form-text text-muted">Conversion date = <span class="currency-date"></span></small>
+                        </div>
+                        <ul class="currency-list"></ul>
+                        <div class="form-group">
+                            <label>Select Currency</label>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <select class="form-control currency-select">
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <button class="btn btn-success currency-more">Add More Currency</button>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> -->
+     
+    <!-- <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script> -->
+    <!-- <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script> -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+
+    <!-- <script src="js/app.js" type="text/babel"></script> -->
+    <script src="js/main.js"></script>
+</body>
+</html>

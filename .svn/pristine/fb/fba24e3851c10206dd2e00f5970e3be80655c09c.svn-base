@@ -1,0 +1,60 @@
+var scrollOffsetTop;
+var sectionOffset = [];
+
+$(document).ready(function() {
+    $('body').on('click', 'nav ul li a, .section-scroll', function(e) {
+        var anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $(anchor.attr('href')).offset().top
+        }, 1000);
+        e.preventDefault();
+    });
+
+    $('.more-slider').owlCarousel({
+        items: 1
+    });
+
+    var rellax = new Rellax('.rellax'); 
+});
+
+$(window).on('load resize', function() { 
+    $('nav ul li a').each(function(i) {
+        var thisID = $(this).attr('href');
+        sectionOffset[i] = $(thisID).offset().top;
+    });
+    $('#imageObject1 img').each(function(i) {
+        var this_ = $(this);
+        setTimeout(function() {
+            this_.addClass('animate');
+        }, i*500);
+    });
+});
+
+$(window).on('scroll', function() {
+    scrollOffsetTop = $(window).scrollTop();
+    if (scrollOffsetTop >= 0 && scrollOffsetTop < sectionOffset[1]){
+        $('nav ul li a').removeClass('active');
+        $('nav ul li:nth-child(1) a').addClass('active');
+    } else if (scrollOffsetTop >= sectionOffset[1] && scrollOffsetTop < sectionOffset[2]){
+        $('nav ul li a').removeClass('active');
+        $('nav ul li:nth-child(2) a').addClass('active');
+        $('#imageObject2 img').each(function(i) {
+            var this_ = $(this);
+            setTimeout(function() {
+                this_.addClass('animate');
+            }, i*500);
+            setTimeout(function() {
+                $('#imageObject2 img:last-child').removeClass('fade-in');
+                $('#imageObject2 img:last-child').removeClass('animate');
+                $('#imageObject2 img:last-child').addClass('headbang');
+            }, $('#imageObject2 img').length*500);
+        });
+        
+    } else if (scrollOffsetTop >= sectionOffset[2] && scrollOffsetTop < sectionOffset[3]){
+        $('nav ul li a').removeClass('active');
+        $('nav ul li:nth-child(3) a').addClass('active');
+    } else {
+        $('nav ul li a').removeClass('active');
+        $('nav ul li:nth-child(4) a').addClass('active');
+    }
+});
