@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 	$.ajax({ 
         type: 'GET', 
-        url: 'https://exchangeratesapi.io/api/latest?base=USD', 
+        url: 'https://api.exchangeratesapi.io/latest?base=USD', 
         dataType: 'json',
         success: function (data) { 
 			curBase = data.base;
